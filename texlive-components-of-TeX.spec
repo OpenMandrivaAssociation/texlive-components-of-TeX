@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /info/components-of-TeX
+# catalog-date 2009-01-09 17:16:29 +0100
+# catalog-license gpl
+# catalog-version undef
 Name:		texlive-components-of-TeX
 Version:	20090109
 Release:	1
@@ -25,6 +31,7 @@ encounter.
 %doc %{_texmfdistdir}/doc/generic/components-of-TeX/figtotal.tex
 %doc %{_texmfdistdir}/doc/generic/components-of-TeX/names.sty
 %doc %{_texmfdistdir}/doc/generic/components-of-TeX/texrep.sty
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -35,3 +42,5 @@ encounter.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
