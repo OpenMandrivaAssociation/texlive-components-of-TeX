@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/components-of-TeX
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 An introduction to the components and files users of TeX may
@@ -31,7 +29,6 @@ encounter.
 %doc %{_texmfdistdir}/doc/generic/components-of-TeX/figtotal.tex
 %doc %{_texmfdistdir}/doc/generic/components-of-TeX/names.sty
 %doc %{_texmfdistdir}/doc/generic/components-of-TeX/texrep.sty
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -42,5 +39,3 @@ encounter.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
