@@ -39,3 +39,17 @@ encounter.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20090109-2
++ Revision: 750414
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20090109-1
++ Revision: 718112
+- texlive-components-of-TeX
+- texlive-components-of-TeX
+- texlive-components-of-TeX
+- texlive-components-of-TeX
+
