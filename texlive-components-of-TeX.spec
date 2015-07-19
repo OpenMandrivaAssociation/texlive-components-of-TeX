@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-components-of-TeX
 Version:	20090109
-Release:	9
+Release:	10
 Summary:	Components of TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/components-of-TeX
