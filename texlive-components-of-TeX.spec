@@ -5,8 +5,8 @@
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-components-of-TeX
-Version:	20090109
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	Components of TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/components-of-TeX
