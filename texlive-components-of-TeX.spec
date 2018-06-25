@@ -5,7 +5,7 @@
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-components-of-TeX
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Components of TeX
 Group:		Publishing
