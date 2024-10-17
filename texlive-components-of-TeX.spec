@@ -9,7 +9,7 @@ Version:	20190228
 Release:	2
 Summary:	Components of TeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/components-of-TeX
+URL:		https://www.ctan.org/tex-archive/info/components-of-TeX
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/components-of-TeX.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/components-of-TeX.doc.tar.xz
